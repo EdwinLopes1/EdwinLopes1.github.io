@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+	<meta charset='UTF-8'>
+	<title>CEG Consultoria</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1> CEG Consultoria</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="sobre.html">Sobre nós</a></li> 
+				<li><a href="contato.html">Entre em contato</a></li> 
+				<li><a href="projetos.html">Projetos</a></li> 
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+	<section class="call-to-action">
+  		<h2>Buscando consultoria?</h2>
+  			<a href="contato.html" class="cta-button">Entrar em contato</a>
+	</section>
+
+	<div class="depoimentos">
+  		<div class="depoimento">
+			<h2> Quer melhorar o seu processo de seleção?</h2>
+    			<p> Nós da CEG acreditamos que a processo de seleção é fundamental para uma melhor experiência na gestão de pessoal da sua empresa.</p>
+			<p> Por isso, nosso objetivo é democratrizar esse processo, equilibrando expectativas e valores entre novos colaboradores e empresa.</p>
+			<p> Quer saber mais sobre nós? </p> <a href="sobre.html" class="cta-button">Clique aqui</a>
+			
+  		</div>
+	</div>
+
+	<div id="infograficos">
+		<script type="text/javascript">
+			function slide1(){
+				document.getElementById('id').src="alcool1.png";
+				setTimeout("slide2()", 5000)
+			}
+			function slide2(){
+				document.getElementById('id').src="alcool2.png";
+				setTimeout("slide1()", 5000)
+			}
+		</script>
+		<body onLoad="slide1()">
+		<img id="id">
+	</div>
+
+	</main>
+
+	<footer>
+  		<p>
+    			<a href="index.html">Home</a> |
+    			<a href="sobre.html">Sobre nós</a> |
+		  	<a href="contato.html">Entre em contato</a> |
+    			<a href="projetos.html">Projetos</a>
+  		</p>
+		<p>CEG Consultoria &copy; 2024</p>
+	</footer>
+</body>
+</html>
